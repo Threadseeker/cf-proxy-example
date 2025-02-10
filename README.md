@@ -4,7 +4,7 @@ This is a minimal example of a Cloudflare Worker that proxies requests while cha
 
 Some services only use the IP address information of the headers to determine the location of the user. This worker changes the IP address of the request to a different one, which can be useful for bypassing certain restrictions.
 
-This project and the implementation was inspired by @maxchou415. Without his suggestion, Threadseeker wouldn't be able to solve the rate limiting issue so quickly.
+This project and the implementation was inspired by [@maxchou415](https://github.com/maxchou415). Without his suggestion, Threadseeker wouldn't be able to solve the rate limiting issue so quickly.
 
 ## Features
 
